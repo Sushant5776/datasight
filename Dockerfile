@@ -1,6 +1,5 @@
 FROM node:20-alpine
-RUN useradd --create-home --shell /bin/bash prod
-USER prod
+USER 10008
 EXPOSE 3000
 WORKDIR /datasight/
 COPY ./public ./public
