@@ -1,5 +1,4 @@
 FROM node:20-alpine
-USER 10008
 EXPOSE 3000
 WORKDIR /datasight/
 COPY ./public ./public
