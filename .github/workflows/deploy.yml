@@ -30,7 +30,7 @@ jobs:
       runs-on: ubuntu-latest
       needs: publish-docker-hub
       steps:
-        - name: Get Action to Deploy to Render
+        - name: Pull Image and Deploy to Render
           uses: gh-actions-workflows/deploy-docker-render@v1.1
           with:
             deploy-hook: ${{ secrets.RENDER_DEPLOY_HOOK }}
