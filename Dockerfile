@@ -1,6 +1,6 @@
 FROM node:20-alpine
 EXPOSE 3000
-WORKDIR /datasight/
+WORKDIR /usr/src/datasight
 COPY ./public ./public
 COPY ./src ./src
 COPY package.json ./package.json

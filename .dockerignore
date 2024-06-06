@@ -1,3 +1,6 @@
 .next
 .git
 node_modules/
+Dockerfile
+.github
+.vscode
